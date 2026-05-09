@@ -3,7 +3,6 @@ const cors = require("cors");
 const path = require("path");
 require("dotenv").config();
 require("./conn/conn");
-import { SpeedInsights } from "@vercel/speed-insights/react"
 
 const app = express();
 
